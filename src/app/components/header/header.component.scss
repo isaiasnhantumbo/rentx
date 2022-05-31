@@ -1,0 +1,39 @@
+header {
+  background: #fff;
+  height: 80px;
+  width: calc(100vw - 80px);
+  display: flex;
+
+  align-items: center;
+  justify-content: space-around;
+
+  .title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 25px;
+    color: #47474d;
+  }
+
+  .session {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    p {
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: 26px;
+      color: #47474d;
+    }
+    .profile {
+      margin-left: 1rem;
+      background-color: #EBEBF0;
+      height: 48px;
+      width: 48px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
