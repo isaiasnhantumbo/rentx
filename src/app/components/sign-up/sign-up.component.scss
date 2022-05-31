@@ -1,0 +1,54 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-items: center;
+  margin-top: 2.5rem;
+}
+
+.content {
+  h2 {
+    font-family: "Archivo";
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 39px;
+    color: #41414d;
+    margin-bottom: 1.5rem;
+  }
+  p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    color: #7a7a80;
+    width: 211px;
+    margin-bottom: 2rem;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+
+    input {
+      border: 1px solid #ebebf0;
+      width: 384px;
+      padding: 23px 80px 23px 60px;
+      margin-bottom: 0.5rem;
+      &::placeholder {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #aeaeb3;
+      }
+
+    }
+
+    button {
+      background: #dc1637;
+      padding: 22px 155px;
+      border-radius: 4px;
+      font-weight: 500;
+      font-size: 1rem;
+      line-height: 19px;
+      color: #ffffff;
+    }
+  }
+}
